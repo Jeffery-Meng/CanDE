@@ -1,0 +1,7 @@
+.idea
+.vscode
+*.DS_Store
+EXPERIMENTS_backup
+*.zip
+EXPERIMENTS
+*checkpoint*

@@ -1,0 +1,33 @@
+{
+    "dimension": 128,
+    "number of rotations": 3,
+    "hash table width": 20,
+    "load index": false,
+    "index path": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/indices/",
+    "number of partitions": 1,
+    "hash table parameters": [{
+	"k":4,
+	"l":100,
+	"bucket width":6.15,
+	"upper":9.2455,
+	"lower":0.0
+    }],
+    "allow overwrite": true,
+    "compute ground truth": false,
+	"testing size": 200,
+	"training size": 10000,
+	"number of neighbors": 1,
+	"data filename": "/media/mydrive/KroneckerRotation/data/random10K.fvecs",
+	"query filename": "/media/mydrive/KroneckerRotation/data/random_query.fvecs",
+    "result filename": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/random/cand",
+    "query mode": "knn candidates",
+    "summary path": "/media/mydrive/ann-codes/in-memory/EXPERIMENTS/random/",
+    "ground truth file":  "/media/mydrive/KroneckerRotation/data/gt/random_order.ivecs",
+    "probes per table": 82,
+    "printing mode": {
+        "id": true,
+        "table": true,
+        "bucket": false,
+        "distance": false
+    }
+}

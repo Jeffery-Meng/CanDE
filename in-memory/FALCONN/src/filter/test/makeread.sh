@@ -1,0 +1,1 @@
+g++ readtest.cc -I ../../../external/eigen -o readtest

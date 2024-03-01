@@ -1,0 +1,1 @@
+g++ -O0 -g filter.cc -I ../../external/eigen -I ../../external/nlohmann -o filter-debug

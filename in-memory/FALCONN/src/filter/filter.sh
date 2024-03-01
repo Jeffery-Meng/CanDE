@@ -1,0 +1,1 @@
+g++ -O3 filter2.cc -I ../../external/eigen -I ../../external/nlohmann -o filter

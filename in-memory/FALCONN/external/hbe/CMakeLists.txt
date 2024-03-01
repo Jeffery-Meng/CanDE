@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.5)
+
+include_directories(utils)
+include_directories(lib/config4cpp/include)
+add_subdirectory(alg)
+add_subdirectory(data)
+link_directories(lib/config4cpp/lib)
+
+#add_executable(hbe main/ComputeExact.cpp)
+#add_executable(hbe main/SketchBench.cpp)
+#add_executable(hbe main/BatchBenchmark.cpp)
+#add_executable(hbe main/Diagnosis.cpp)
+#add_executable(hbe main/SyntheticDataGen.cpp)
+#add_executable(hbe main/FindAdaptiveEps.cpp)
+#add_executable(hbe main/RunAdaptive.cpp)
+#target_link_libraries(hbe alg data config4cpp)
